@@ -16,6 +16,12 @@ body {
     margin: 0
 }
 
+h3 {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 40px;
+}
 article,
 aside,
 details,

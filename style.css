@@ -641,7 +641,6 @@ a[data-lightbox]:hover img {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
@@ -705,15 +704,15 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
 h3 {
+    font-size: 22px;
+}
+h5 {
     font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
 }
 
 .med-width-whitespace {
@@ -726,10 +725,17 @@ h1 {
     color: #333333!important;
 }
 
+h3 {
+    color: #333333;
+}
+
 h4 {
     color: #333333!important;
 }
-
+.italic{
+    font-style: italic;
+    color: #696767;
+}
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
