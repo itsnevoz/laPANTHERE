@@ -1091,4 +1091,14 @@ ul {
         padding-top: 0;
 }
 }
+@media (max-width: 767px) {
+.position{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.centertext{
+    text-align: center;
+}
+}
 /*test github*/
