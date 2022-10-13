@@ -916,6 +916,7 @@ h4 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+        margin-bottom: 0;
     }
     .navbar.row {
         margin-left: 0;
@@ -934,6 +935,8 @@ h4 {
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
@@ -978,18 +981,45 @@ h4 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 0;
+    }
+    .imagecenter{
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio-thumb{
+        margin-bottom: 0;
+    }
+    .tight-width-whitespace{
+        margin: 0;
+    }
+    .imagemargin{
+        margin-bottom: 60px;
+    }
+    .mg-md{
+        margin-bottom: 0;
+        padding-bottom: 10px;
     }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        padding-bottom: 80px;
     }
     .bloc-sm,
     .bloc-md {
         padding-left: 0;
         padding-right: 0;
+    }
+    .social{
+        display: flex;
+    }
+    .socialwidth{
+        width: 25%;
+        display: flex;
+        justify-content: center;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
@@ -1044,10 +1074,21 @@ h4 {
         text-align: center;
     }
 }
+@media (max-width: 767px) {
+    .navbar-header{
+        display: flex;
+        justify-content: center;
+    }
+}
 ul {
     font-size: 20px;
 }
 .ppaddinng{
     padding-top: 24px;
+}
+@media (max-width: 991px) {
+    .ppaddinng{
+        padding-top: 0;
+}
 }
 /*test github*/
